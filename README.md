@@ -14,6 +14,10 @@ Japanese sentences are tokenized using [KyTea](http://www.phontron.com/kytea/).
 All texts are encoded in UTF-8. Sentence separator is `'\n'` and word separator
 is `' '`.
 
+Attention: some English characters have different tokenization results from Stanford Tokenizer,
+e.g., "don't" -> "don" "'t", which may come from preprocessing errors.
+Please take care of using this dataset in token-level evaluation.
+
 Corpus Statistics
 -----------------
 
